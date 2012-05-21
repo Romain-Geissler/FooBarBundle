@@ -69,6 +69,34 @@
     target=/bundles/Symfony/Bundle/AsseticBundle
     version=v1.0.1
 
+[SonataAdminBundle]
+    git=http://github.com/sonata-project/SonataAdminBundle.git
+    target=/bundles/Sonata/AdminBundle
+    version=origin/2.0
+
+[SonataBlockBundle]
+    git=http://github.com/sonata-project/SonataBlockBundle.git
+    target=/bundles/Sonata/BlockBundle
+    version=origin/2.0
+
+[SonataCacheBundle]
+    git=http://github.com/sonata-project/SonataCacheBundle.git
+    target=/bundles/Sonata/CacheBundle
+    version=origin/2.0
+
+[SonataDoctrineORMAdminBundle]
+    git=http://github.com/sonata-project/SonataDoctrineORMAdminBundle.git
+    target=/bundles/Sonata/DoctrineORMAdminBundle
+    version=origin/2.0
+
+[SonatajQueryBundle]
+    git=http://github.com/sonata-project/SonatajQueryBundle.git
+    target=/bundles/Sonata/jQueryBundle
+
+[SonataIntlBundle]
+    git=https://github.com/sonata-project/SonataIntlBundle
+    target=/bundles/Sonata/IntlBundle
+
 [KnpMenuBundle]
     git=http://github.com/KnpLabs/KnpMenuBundle.git
     target=/bundles/Knp/Bundle/MenuBundle
@@ -78,3 +106,7 @@
     git=http://github.com/KnpLabs/KnpMenu.git
     target=/knp/menu
     version=v1.1.1
+
+[Exporter]
+    git=http://github.com/sonata-project/exporter.git
+    target=/exporter
