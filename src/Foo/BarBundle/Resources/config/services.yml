@@ -1,1 +1,12 @@
 services:
+    foo.bar.admin.entity1:
+        class: Foo\BarBundle\Admin\Entity1Admin
+        tags:
+            - {name:sonata.admin,manager_type:orm,group:fooBar,label:Entity1}
+        arguments: [null,Foo\BarBundle\Entity\Entity1,SonataAdminBundle:CRUD]
+
+    foo.bar.admin.entity2:
+        class: Foo\BarBundle\Admin\Entity2Admin
+        tags:
+            - {name:sonata.admin,manager_type:orm,group:fooBar,label:Entity2}
+        arguments: [null,Foo\BarBundle\Entity\Entity2,SonataAdminBundle:CRUD]

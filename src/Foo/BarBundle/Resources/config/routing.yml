@@ -1,0 +1,7 @@
+_welcome:
+    pattern: /
+    defaults: {_controller: SonataAdminBundle:Core:dashboard}
+
+admin:
+    resource: '@SonataAdminBundle/Resources/config/routing/sonata_admin.xml'
+    prefix: /
